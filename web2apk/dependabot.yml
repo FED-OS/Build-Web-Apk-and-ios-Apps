@@ -1,0 +1,36 @@
+# Dependabot keeps dependencies fresh across the ecosystem.
+# Updates are grouped per ecosystem and run on a weekly schedule.
+
+version: 2
+updates:
+  # npm (Capacitor plugins + dev tooling)
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 10
+    groups:
+      capacitor:
+        patterns:
+          - '@capacitor/*'
+      dev-tooling:
+        patterns:
+          - 'prettier'
+          - 'markdownlint*'
+
+  # GitHub Actions
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+
+  # Gradle (Android build deps)
+  - package-ecosystem: gradle
+    directory: /android
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
