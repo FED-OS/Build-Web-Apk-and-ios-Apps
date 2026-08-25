@@ -1,0 +1,8 @@
+=== YAML check (explicit) ===
+  OK: .github/dependabot.yml
+  OK: .github/FUNDING.yml
+  OK: .github/workflows/build.yml
+  OK: .github/workflows/release.yml
+  OK: .github/workflows/lint.yml
+=== Makefile check ===
+bash: line 9: make: command not found

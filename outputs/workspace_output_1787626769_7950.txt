@@ -1,0 +1,40 @@
+resources/icon/:
+total 1020
+drwxr-xr-x 2 root root    4096 Aug 25 02:58 .
+drwxr-xr-x 4 root root    4096 Aug 25 02:54 ..
+-rw-r--r-- 1 root root 1036243 Aug 25 02:58 icon.png
+
+resources/splash/:
+total 504
+drwxr-xr-x 2 root root   4096 Aug 25 02:59 .
+drwxr-xr-x 4 root root   4096 Aug 25 02:54 ..
+-rw-r--r-- 1 root root 507192 Aug 25 02:59 splash.png
+
+www/:
+total 56
+drwxr-xr-x  3 root root 4096 Aug 25 02:58 .
+drwxr-xr-x 10 root root 4096 Aug 25 02:56 ..
+-rw-r--r--  1 root root 5873 Aug 25 02:57 app.js
+drwxr-xr-x  2 root root 4096 Aug 25 02:59 assets
+-rw-r--r--  1 root root  223 Aug 25 02:57 browserconfig.xml
+-rw-r--r--  1 root root  434 Aug 25 02:57 humans.txt
+-rw-r--r--  1 root root 6918 Aug 25 02:56 index.html
+-rw-r--r--  1 root root 1136 Aug 25 02:56 manifest.json
+-rw-r--r--  1 root root 2411 Aug 25 02:57 offline.html
+-rw-r--r--  1 root root   46 Aug 25 02:57 robots.txt
+-rw-r--r--  1 root root 3079 Aug 25 02:56 styles.css
+-rw-r--r--  1 root root 2762 Aug 25 02:57 sw.js
+
+www/assets/:
+total 1952
+drwxr-xr-x 2 root root    4096 Aug 25 02:59 .
+drwxr-xr-x 3 root root    4096 Aug 25 02:58 ..
+-rw-r--r-- 1 root root     672 Aug 25 02:59 favicon-16.png
+-rw-r--r-- 1 root root    1781 Aug 25 02:59 favicon-32.png
+-rw-r--r-- 1 root root    6059 Aug 25 02:59 favicon.ico
+-rw-r--r-- 1 root root   34665 Aug 25 02:59 icon-192.png
+-rw-r--r-- 1 root root  257873 Aug 25 02:59 icon-512.png
+-rw-r--r-- 1 root root   20683 Aug 25 02:59 icon-maskable-192.png
+-rw-r--r-- 1 root root  136994 Aug 25 02:59 icon-maskable-512.png
+-rw-r--r-- 1 root root     594 Aug 25 02:59 icon.svg
+-rw-r--r-- 1 root root 1507336 Aug 25 02:58 og-image.png

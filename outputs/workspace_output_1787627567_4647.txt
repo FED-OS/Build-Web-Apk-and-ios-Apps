@@ -1,0 +1,2 @@
+29:        run: npx prettier --check 'www/**/*.{html,css,js,json}' 'capacitor.config.json' '*.json' '.github/**/*.yml'
+32:        run: npx markdownlint '**/*.md' --ignore node_modules --ignore CHANGELOG.md

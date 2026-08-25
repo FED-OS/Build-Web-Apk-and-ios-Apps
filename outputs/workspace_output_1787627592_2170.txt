@@ -1,0 +1,27 @@
+✅ package.json valid
+Scripts: 25
+  assets
+  assets:android
+  assets:ios
+  build:apk
+  build:bundle
+  build:ios
+  build:release
+  build:web
+  clean
+  copy
+  copy:android
+  copy:ios
+  format
+  lint
+  lint:fix
+  lint:js
+  open:android
+  open:ios
+  prepare:android
+  prepare:ios
+  sync
+  sync:android
+  sync:ios
+  test
+  version

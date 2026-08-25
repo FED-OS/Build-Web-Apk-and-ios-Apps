@@ -1,0 +1,18 @@
+Base structure created
+web2apk
+web2apk/.github
+web2apk/.github/workflows
+web2apk/.vscode
+web2apk/android
+web2apk/android/app
+web2apk/android/capacitor-cordova-android-plugins
+web2apk/android/gradle
+web2apk/docs
+web2apk/ios
+web2apk/ios/App
+web2apk/ios/capacitor-cordova-ios-plugins
+web2apk/resources
+web2apk/resources/icon
+web2apk/resources/splash
+web2apk/scripts
+web2apk/www

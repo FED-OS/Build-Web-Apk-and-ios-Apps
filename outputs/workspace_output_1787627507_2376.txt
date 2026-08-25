@@ -1,0 +1,14 @@
+[notice] To update, run: pip install --upgrade pip
+=== YAML CHECKS ===
+  OK: .github/dependabot.yml
+  OK: .github/FUNDING.yml
+  OK: .github/workflows/build.yml
+  OK: .github/workflows/release.yml
+  OK: .github/workflows/lint.yml
+=== XML CHECKS ===
+  OK: www/browserconfig.xml
+  OK: android/app/src/main/AndroidManifest.xml
+  OK: android/app/src/main/res/xml/network_security_config.xml
+  OK: android/app/src/main/res/xml/backup_rules.xml
+  OK: android/app/src/main/res/xml/data_extraction_rules.xml
+  OK: ios/App/App/Info.plist

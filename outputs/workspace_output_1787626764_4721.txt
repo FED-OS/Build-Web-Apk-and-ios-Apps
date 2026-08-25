@@ -1,0 +1,11 @@
+Generated assets:
+  www/assets/favicon-16.png
+  www/assets/favicon-32.png
+  www/assets/favicon.ico
+  www/assets/icon-192.png
+  www/assets/icon-512.png
+  www/assets/icon-maskable-192.png
+  www/assets/icon-maskable-512.png
+  www/assets/icon.svg
+  www/assets/og-image.png
+  resources/splash/splash.png

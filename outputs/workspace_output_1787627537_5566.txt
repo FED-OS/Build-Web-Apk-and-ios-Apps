@@ -1,0 +1,8 @@
+      }
+    </script>
+
+    <!-- Capacitor plugin bridge (no-ops gracefully in a plain browser) -->
+    <script src="capacitor.js"></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>

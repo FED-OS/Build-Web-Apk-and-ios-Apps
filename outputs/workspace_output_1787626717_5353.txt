@@ -1,0 +1,12 @@
+copied
+web2apk/resources/icon:
+total 1020
+drwxr-xr-x 2 root root    4096 Aug 25 02:58 .
+drwxr-xr-x 4 root root    4096 Aug 25 02:54 ..
+-rw-r--r-- 1 root root 1036243 Aug 25 02:58 icon.png
+
+web2apk/www/assets:
+total 1484
+drwxr-xr-x 2 root root    4096 Aug 25 02:58 .
+drwxr-xr-x 3 root root    4096 Aug 25 02:58 ..
+-rw-r--r-- 1 root root 1507336 Aug 25 02:58 og-image.png

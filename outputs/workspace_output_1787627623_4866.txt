@@ -1,0 +1,7 @@
+  adding: web2apk/ios/App/App.xcodeproj/ (stored 0%)
+  adding: web2apk/ios/App/App.xcodeproj/project.pbxproj (deflated 80%)
+  adding: web2apk/ios/App/App.xcodeproj/project.xcworkspace/ (stored 0%)
+  adding: web2apk/ios/App/App.xcodeproj/project.xcworkspace/xcshareddata/ (stored 0%)
+  adding: web2apk/ios/App/App.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (deflated 21%)
+=== ZIP CREATED ===
+-rw-r--r-- 1 root root 7.5M Aug 25 03:13 web2apk-upgraded.zip

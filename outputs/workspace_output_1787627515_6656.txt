@@ -1,0 +1,20 @@
+=== iOS Contents.json ===
+  OK: ios/App/App/Assets.xcassets/Contents.json
+  OK: ios/App/App/Assets.xcassets/AppIcon.appiconset/Contents.json
+  OK: ios/App/App/Assets.xcassets/Splash.imageset/Contents.json
+=== manifest.json icons ===
+  192x192 src=assets/icon-192.png type=image/png purpose=any
+  512x512 src=assets/icon-512.png type=image/png purpose=any
+  192x192 src=assets/icon-maskable-192.png type=image/png purpose=maskable
+  512x512 src=assets/icon-maskable-512.png type=image/png purpose=maskable
+=== index.html asset refs ===
+href="manifest.json"
+href="assets/icon-192.png"
+href="assets/icon-512.png"
+href="assets/icon-192.png"
+href="assets/icon.svg"
+href="assets/favicon.ico"
+href="styles.css"
+src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"
+src="capacitor.js"
+src="app.js"

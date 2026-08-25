@@ -1,0 +1,12 @@
+total 56
+drwxr-xr-x 2 root root  4096 Aug 25 02:54 .
+drwxr-xr-x 3 root root  4096 Aug 25 02:54 ..
+-rw-r--r-- 1 root root 43764 Aug 25 02:54 gradle-wrapper.jar
+-rw-r--r-- 1 root root   253 Aug 25 02:54 gradle-wrapper.properties
+---
+-rw-r--r-- 1 root root 8733 Aug 25 02:54 android/gradlew
+# Project-wide Gradle settings.
+
+# JVM arguments for the daemon process.
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+

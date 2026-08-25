@@ -1,0 +1,47 @@
+
+🔧  web2apk configuration validator
+==================================================
+
+⚙️  Capacitor config
+  ⚠️  appId is still the placeholder "com.example.mywebapp" — run npm run setup to rename
+  ⚠️  appName is still the placeholder "My Web App"
+  ✅  webDir = www
+  ✅  plugins block present (4 entries)
+
+⚙️  PWA manifest
+  ✅  name = My Web App
+  ✅  short_name = WebApp
+  ✅  icons ok (4 entries)
+  ✅  display = standalone
+
+⚙️  package.json scripts
+  ✅  script "sync" present
+  ✅  script "build:apk" present
+  ✅  script "build:release" present
+  ✅  script "build:bundle" present
+  ✅  script "lint" present
+  ✅  script "test" present
+  ✅  script "assets" present
+  ✅  scripts/validate-config.mjs exists
+  ✅  scripts/version-bump.mjs exists
+
+⚙️  AndroidManifest.xml
+  ✅  MainActivity declared
+  ✅  INTERNET permission present
+  ✅  allowBackup configured
+  ✅  networkSecurityConfig referenced
+
+⚙️  iOS Info.plist
+  ✅  CFBundleIdentifier present
+  ✅  CFBundleDisplayName present
+  ✅  NSCameraUsageDescription present
+  ✅  NSLocationWhenInUseUsageDescription present
+  ✅  NSPhotoLibraryUsageDescription present
+
+==================================================
+  Result: 0 error(s), 2 warning(s)
+
+⚠️  Validation passed with warnings. Review them when convenient.
+
+✅  All checks passed.
+

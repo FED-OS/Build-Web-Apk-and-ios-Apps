@@ -1,0 +1,20 @@
+⚙️  AndroidManifest.xml
+  ✅  MainActivity declared
+  ✅  INTERNET permission present
+  ✅  allowBackup configured
+  ✅  networkSecurityConfig referenced
+
+⚙️  iOS Info.plist
+  ✅  CFBundleIdentifier present
+  ✅  CFBundleDisplayName present
+  ✅  NSCameraUsageDescription present
+  ✅  NSLocationWhenInUseUsageDescription present
+  ✅  NSPhotoLibraryUsageDescription present
+
+==================================================
+  Result: 0 error(s), 2 warning(s)
+
+⚠️  Validation passed with warnings. Review them when convenient.
+
+✅  All checks passed.
+

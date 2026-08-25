@@ -1,0 +1,36 @@
+=== ORIGINAL PROJECT ===
+93
+files in original
+
+=== UPGRADED PROJECT ===
+146
+files in upgraded
+
+=== ORIGINAL by type ===
+     30 png
+     13 xml
+      9 json
+      8 gradle
+      4 swift
+      4 js
+      3 java
+      3 html
+      2 yml
+      2 storyboard
+
+=== UPGRADED by type ===
+     40 png
+     18 xml
+     12 json
+     11 md
+      8 gradle
+      6 js
+      5 yml
+      5 sh
+      4 swift
+      4 html
+      3 mjs
+      3 java
+      2 txt
+      2 storyboard
+      2 properties

@@ -1,0 +1,64 @@
+=== RESOURCES ===
+resources/icon/:
+total 1020
+drwxr-xr-x 2 root root    4096 Aug 25 02:58 .
+drwxr-xr-x 4 root root    4096 Aug 25 02:54 ..
+-rw-r--r-- 1 root root 1036243 Aug 25 02:58 icon.png
+
+resources/splash/:
+total 504
+drwxr-xr-x 2 root root   4096 Aug 25 02:59 .
+drwxr-xr-x 4 root root   4096 Aug 25 02:54 ..
+-rw-r--r-- 1 root root 507192 Aug 25 02:59 splash.png
+=== WWW ASSETS ===
+total 1952
+drwxr-xr-x 2 root root    4096 Aug 25 02:59 .
+drwxr-xr-x 3 root root    4096 Aug 25 02:58 ..
+-rw-r--r-- 1 root root     672 Aug 25 02:59 favicon-16.png
+-rw-r--r-- 1 root root    1781 Aug 25 02:59 favicon-32.png
+-rw-r--r-- 1 root root    6059 Aug 25 02:59 favicon.ico
+-rw-r--r-- 1 root root   34665 Aug 25 02:59 icon-192.png
+-rw-r--r-- 1 root root  257873 Aug 25 02:59 icon-512.png
+-rw-r--r-- 1 root root   20683 Aug 25 02:59 icon-maskable-192.png
+-rw-r--r-- 1 root root  136994 Aug 25 02:59 icon-maskable-512.png
+-rw-r--r-- 1 root root     594 Aug 25 02:59 icon.svg
+-rw-r--r-- 1 root root 1507336 Aug 25 02:58 og-image.png
+=== ANDROID ICONS ===
+android/app/src/main/res/drawable-port-xxhdpi/splash.png
+android/app/src/main/res/drawable-port-mdpi/splash.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png
+android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+android/app/src/main/res/drawable-land-mdpi/splash.png
+android/app/src/main/res/drawable-land-hdpi/splash.png
+android/app/src/main/res/drawable-port-xhdpi/splash.png
+android/app/src/main/res/drawable-land-xxxhdpi/splash.png
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png
+android/app/src/main/res/drawable/splash.png
+android/app/src/main/res/drawable/ic_launcher_background.xml
+android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png
+android/app/src/main/res/drawable-port-xxxhdpi/splash.png
+android/app/src/main/res/values/ic_launcher_background.xml
+android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+android/app/src/main/res/drawable-land-xxhdpi/splash.png
+android/app/src/main/res/drawable-land-xhdpi/splash.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png
+=== iOS ASSETS ===
+ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-2.png
+ios/App/App/Assets.xcassets/Splash.imageset/Contents.json
+ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732.png
+ios/App/App/Assets.xcassets/Splash.imageset/splash-2732x2732-1.png
+ios/App/App/Assets.xcassets/Contents.json
+ios/App/App/Assets.xcassets/AppIcon.appiconset/Contents.json
+ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png

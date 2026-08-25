@@ -1,0 +1,6 @@
+=== app.js syntax check ===
+  ✅ app.js: syntax OK
+=== version-bump.mjs syntax ===
+  ✅ version-bump.mjs: syntax OK
+=== validate-config.mjs syntax ===
+  ✅ validate-config.mjs: syntax OK

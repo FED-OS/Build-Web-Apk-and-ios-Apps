@@ -1,0 +1,8 @@
+86:  "devDependencies": {
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/ios": "^8.5.0",
+    "markdownlint-cli": "^0.41.0",
+    "prettier": "^3.3.3"
+  }

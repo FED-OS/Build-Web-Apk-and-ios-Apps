@@ -1,0 +1,29 @@
+=== FINAL DELIVERABLE ===
+-rw-r--r-- 1 root root 7.5M Aug 25 03:13 web2apk-upgraded.zip
+
+=== ZIP INTEGRITY CHECK ===
+    testing: web2apk/ios/App/App.xcodeproj/project.xcworkspace/xcshareddata/   OK
+    testing: web2apk/ios/App/App.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist   OK
+No errors detected in compressed data of web2apk-upgraded.zip.
+
+=== PROJECT ROOT FILES ===
+-rw-r--r--  1 root root   282 Aug 25 02:55 .editorconfig
+-rw-r--r--  1 root root   989 Aug 25 02:55 .gitignore
+-rw-r--r--  1 root root  1019 Aug 25 03:11 .markdownlint.jsonc
+-rw-r--r--  1 root root     3 Aug 25 02:55 .nvmrc
+-rw-r--r--  1 root root   592 Aug 25 03:11 .prettierignore
+-rw-r--r--  1 root root   618 Aug 25 03:11 .prettierrc
+-rw-r--r--  1 root root  7151 Aug 25 03:07 ARCHITECTURE.md
+-rw-r--r--  1 root root  7033 Aug 25 02:56 CHANGELOG.md
+-rw-r--r--  1 root root  2225 Aug 25 02:55 CODE_OF_CONDUCT.md
+-rw-r--r--  1 root root  4787 Aug 25 03:06 CONFIGURATION.md
+-rw-r--r--  1 root root  3194 Aug 25 02:55 CONTRIBUTING.md
+-rw-r--r--  1 root root  1077 Aug 25 02:55 LICENSE
+-rw-r--r--  1 root root  2800 Aug 25 03:11 Makefile
+-rw-r--r--  1 root root  6985 Aug 25 03:06 PLUGINS.md
+-rw-r--r--  1 root root  4664 Aug 25 03:07 PUBLISHING.md
+-rw-r--r--  1 root root 17526 Aug 25 03:06 README.md
+-rw-r--r--  1 root root  3755 Aug 25 03:07 TROUBLESHOOTING.md
+-rw-r--r--  1 root root  1017 Aug 25 02:55 capacitor.config.json
+-rw-r--r--  1 root root  1873 Aug 25 03:11 eslint.config.mjs
+-rw-r--r--  1 root root  3567 Aug 25 03:13 package.json

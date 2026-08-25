@@ -1,0 +1,55 @@
+=== AppIcon Contents.json ===
+{
+  "images" : [
+    {
+      "filename" : "AppIcon-512@2x.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
+
+=== Splash Contents.json ===
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "splash-2732x2732-2.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "splash-2732x2732-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "splash-2732x2732.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
+ios/App/App/Assets.xcassets/AppIcon.appiconset/:
+total 120
+drwxr-xr-x 2 root root   4096 Aug 25 02:54 .
+drwxr-xr-x 4 root root   4096 Aug 25 02:54 ..
+-rw-r--r-- 1 root root 110522 Aug 25 02:54 AppIcon-512@2x.png
+-rw-r--r-- 1 root root    218 Aug 25 02:54 Contents.json
+
+ios/App/App/Assets.xcassets/Splash.imageset/:
+total 144
+drwxr-xr-x 2 root root  4096 Aug 25 02:54 .
+drwxr-xr-x 4 root root  4096 Aug 25 02:54 ..
+-rw-r--r-- 1 root root   403 Aug 25 02:54 Contents.json
+-rw-r--r-- 1 root root 41273 Aug 25 02:54 splash-2732x2732-1.png
+-rw-r--r-- 1 root root 41273 Aug 25 02:54 splash-2732x2732-2.png
+-rw-r--r-- 1 root root 41273 Aug 25 02:54 splash-2732x2732.png

@@ -1,0 +1,12 @@
+✅ All bad references removed
+---
+            .catch((err) => console.warn('[PWA] service worker failed', err));
+        });
+      }
+    </script>
+
+    <!-- Capacitor plugin bridge — Capacitor injects its runtime automatically;
+         no manual script tag is needed. app.js detects native via Capacitor.* -->
+    <script src="app.js" defer></script>
+  </body>
+</html>

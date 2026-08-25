@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+  File "/usr/local/lib/python3.11/xml/dom/minidom.py", line 1985, in parse
+    return expatbuilder.parse(file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/xml/dom/expatbuilder.py", line 911, in parse
+    result = builder.parseFile(fp)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/xml/dom/expatbuilder.py", line 207, in parseFile
+    parser.Parse(buffer, False)
+xml.parsers.expat.ExpatError: not well-formed (invalid token): line 97, column 58
+index.html is HTML5 (loose) — checking with grep instead
+1
+1

@@ -1,0 +1,12 @@
+total 20
+drwxr-xr-x  2 root root 4096 Aug 25 03:08 .
+drwxr-xr-x 10 root root 4096 Aug 25 03:07 ..
+-rw-r--r--  1 root root  809 Aug 25 03:08 build-android.sh
+-rw-r--r--  1 root root  566 Aug 25 03:08 build-ios.sh
+-rw-r--r--  1 root root 1659 Aug 25 03:08 setup.sh
+---
+total 8
+drwxr-xr-x  2 root root 4096 Aug 25 02:54 .
+drwxr-xr-x 10 root root 4096 Aug 25 03:07 ..
+---
+no makefile

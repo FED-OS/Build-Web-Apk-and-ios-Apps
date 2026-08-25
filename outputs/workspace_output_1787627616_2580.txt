@@ -1,0 +1,25 @@
+=== FILE COUNT BY TYPE ===
+     40 png
+     18 xml
+     12 json
+     11 md
+      8 gradle
+      6 js
+      5 yml
+      5 sh
+      4 swift
+      4 html
+      3 mjs
+      3 java
+      2 txt
+      2 storyboard
+      2 properties
+      2 plist
+      1 xcconfig
+      1 svg
+      1 pro
+      1 prettierrc
+=== TOTAL FILES ===
+146
+=== TOTAL SIZE ===
+8.8M	.

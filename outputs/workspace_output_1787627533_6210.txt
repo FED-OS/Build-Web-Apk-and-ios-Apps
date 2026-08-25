@@ -1,0 +1,5 @@
+26:    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+27:    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+154:    <script src="capacitor.js"></script>
+---
+app.js: no capacitor.js refs (good)

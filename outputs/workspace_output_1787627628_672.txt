@@ -1,0 +1,56 @@
+.
+├── android
+│   ├── app
+│   ├── capacitor-cordova-android-plugins
+│   ├── gradle
+│   ├── build.gradle
+│   ├── capacitor.settings.gradle
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   ├── settings.gradle
+│   └── variables.gradle
+├── docs
+│   └── README.md
+├── ios
+│   ├── App
+│   ├── capacitor-cordova-ios-plugins
+│   └── debug.xcconfig
+├── resources
+│   ├── icon
+│   └── splash
+├── scripts
+│   ├── build-android.sh
+│   ├── build-ios.sh
+│   ├── generate-icons.sh
+│   ├── release.sh
+│   ├── setup.sh
+│   ├── validate-config.mjs
+│   └── version-bump.mjs
+├── www
+│   ├── assets
+│   ├── app.js
+│   ├── browserconfig.xml
+│   ├── humans.txt
+│   ├── index.html
+│   ├── manifest.json
+│   ├── offline.html
+│   ├── robots.txt
+│   ├── styles.css
+│   └── sw.js
+├── ARCHITECTURE.md
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONFIGURATION.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── Makefile
+├── PLUGINS.md
+├── PUBLISHING.md
+├── README.md
+├── TROUBLESHOOTING.md
+├── capacitor.config.json
+├── eslint.config.mjs
+└── package.json
+
+15 directories, 39 files
