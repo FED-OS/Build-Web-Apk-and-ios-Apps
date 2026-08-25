@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0b1020" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+
+    <!-- iOS PWA / web app meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="My Web App" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- PWA manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/icon-512.png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="mask-icon" href="assets/icon.svg" color="#0b1020" />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="My Web App" />
+    <meta property="og:description" content="A polished, installable, offline-capable mobile app." />
+    <meta property="og:image" content="assets/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="My Web App" />
+    <meta name="twitter:description" content="A polished, installable, offline-capable mobile app." />
+    <meta name="twitter:image" content="assets/og-image.png" />
+
+    <!-- Microsoft tiles -->
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="#0b1020" />
+    <meta name="application-name" content="My Web App" />
+
+    <!-- SEO -->
+    <meta name="description" content="My Web App — a polished, installable, offline-capable mobile app." />
+    <meta name="robots" content="index,follow" />
+
+    <title>My Web App</title>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+  <body>
+    <!--
+      ──────────────────────────────────────────────────────────────────────
+      PLACEHOLDER CONTENT
+      ──────────────────────────────────────────────────────────────────────
+      This page is shown only when you build a fully OFFLINE / bundled app and
+      have NOT replaced these files with your own site.
+
+      Two ways to ship your real app:
+        A) Live website  → set "server.url" in capacitor.config.json
+                           (this file is then ignored; your site loads instead)
+        B) Bundled files → replace everything in www/ with your built site
+                           (index.html, css/, js/, assets/, etc.)
+      ──────────────────────────────────────────────────────────────────────
+    -->
+    <main id="app">
+      <div class="hero">
+        <div class="logo" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="72" height="72" role="img" aria-label="App logo">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#4f8cff" />
+                <stop offset="1" stop-color="#9b5cff" />
+              </linearGradient>
+            </defs>
+            <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#g)" />
+            <path
+              d="M20 40c0-8 6-14 12-14s12 6 12 14"
+              fill="none"
+              stroke="#fff"
+              stroke-width="3.5"
+              stroke-linecap="round"
+            />
+            <circle cx="26" cy="28" r="3" fill="#fff" />
+            <circle cx="38" cy="28" r="3" fill="#fff" />
+          </svg>
+        </div>
+        <h1>My Web App</h1>
+        <p class="tagline">
+          A polished, installable, offline-capable mobile app — powered by Capacitor.
+        </p>
+      </div>
+
+      <section class="status-card" id="status-card" hidden>
+        <div class="status-row">
+          <span class="dot" id="net-dot"></span>
+          <span id="net-label">Checking connectivity…</span>
+        </div>
+        <div class="status-row">
+          <span>Platform</span>
+          <span id="platform-label">—</span>
+        </div>
+      </section>
+
+      <section class="getting-started">
+        <h2>Replace this with your app</h2>
+        <p>
+          This placeholder is only used when you build a fully offline bundled
+          app and haven't dropped in your own files yet.
+        </p>
+        <ol>
+          <li>
+            <strong>Live site (easiest):</strong> set
+            <code>server.url</code> in <code>capacitor.config.json</code> —
+            the app loads your website and this file is ignored.
+          </li>
+          <li>
+            <strong>Bundled files:</strong> replace everything in
+            <code>www/</code> with your built site
+            (<code>index.html</code>, <code>css/</code>, <code>js/</code>,
+            <code>assets/</code> …) and remove <code>server.url</code> if set.
+            The app then works fully offline.
+          </li>
+        </ol>
+        <p>
+          Update <code>appId</code> (a unique reverse-domain id, e.g.
+          <code>com.yourcompany.appname</code>) and <code>appName</code> in
+          <code>capacitor.config.json</code>.
+        </p>
+        <p class="hint">
+          See <code>README.md</code> for the full guide, and
+          <code>CONFIGURATION.md</code> / <code>PLUGINS.md</code> for every
+          option and plugin.
+        </p>
+      </section>
+    </main>
+
+    <!-- Register the service worker for offline support -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('sw.js')
+            .then((reg) => console.info('[PWA] service worker registered', reg.scope))
+            .catch((err) => console.warn('[PWA] service worker failed', err));
+        });
+      }
+    </script>
+
+    <!-- Capacitor plugin bridge — Capacitor injects its runtime automatically;
+         no manual script tag is needed. app.js detects native via Capacitor.* -->
+    <script src="app.js" defer></script>
+  </body>
+</html>

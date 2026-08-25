@@ -1,0 +1,28 @@
+{
+	"appId": "com.example.mywebapp",
+	"appName": "My Web App",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"server": {
+		"androidScheme": "https",
+		"iosScheme": "capacitor"
+	},
+	"packageClassList": [
+		"AppPlugin",
+		"BrowserPlugin",
+		"CameraPlugin",
+		"ClipboardPlugin",
+		"DevicePlugin",
+		"FilesystemPlugin",
+		"GeolocationPlugin",
+		"HapticsPlugin",
+		"LocalNotificationsPlugin",
+		"NetworkPlugin",
+		"PreferencesPlugin",
+		"PushNotificationsPlugin",
+		"SharePlugin",
+		"SplashScreenPlugin",
+		"StatusBarPlugin",
+		"ToastPlugin"
+	]
+}
