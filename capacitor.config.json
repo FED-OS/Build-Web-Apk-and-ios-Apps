@@ -1,0 +1,43 @@
+{
+  "appId": "com.example.mywebapp",
+  "appName": "My Web App",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "androidScheme": "https",
+  "iosScheme": "capacitor",
+  "loggingBehavior": "debug",
+  "errorReporting": true,
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "capacitor",
+    "cleartext": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#0b1020",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "iosSpinnerStyle": "small",
+      "splashFullScreen": true,
+      "splashImmersive": true,
+      "fadeOutDuration": 400
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0b1020",
+      "overlaysWebView": false,
+      "iosAnimation": true
+    },
+    "Keyboard": {
+      "resize": "body",
+      "style": "DARK",
+      "resizeOnFullScreen": true
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
