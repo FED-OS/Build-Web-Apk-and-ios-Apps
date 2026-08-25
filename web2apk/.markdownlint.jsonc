@@ -1,0 +1,17 @@
+// markdownlint configuration for web2apk
+// Docs: https://github.com/DavidAnson/markdownlint
+{
+  "default": true,
+  // Relax rules that are noisy for this project's docs style
+  "MD013": false, // line-length — we use proseWrap: preserve
+  "MD033": false, // inline HTML — allowed for <details>/<summary>/badges
+  "MD041": false, // first-line H1 — README starts with badges before title
+  "MD024": { "siblings_only": true }, // no-duplicate-heading — allow same heading in different sections
+  "MD026": false, // no-trailing-punctuation in headings — colons are fine
+  "MD036": false, // no-emphasis-as-heading — bold lines used in tables/notes
+  "MD034": false, // no-bare-urls — bare URLs are intentional in some docs
+  "MD012": { "maximum": 2 }, // multiple-blanks — allow up to 2 blank lines
+  "MD009": { "br_spaces": 2 }, // trailing-spaces — allow 2 trailing spaces for hard breaks
+  "MD007": { "indent": 2 }, // ul-indent — 2-space list indentation
+  "MD007": { "start_indented": false }
+}
