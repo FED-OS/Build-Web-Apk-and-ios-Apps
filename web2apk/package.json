@@ -1,0 +1,95 @@
+{
+  "name": "web2apk",
+  "version": "2.0.0",
+  "description": "Turn any website into a polished, installable Android (APK/AAB) & iOS app \u2014 Capacitor-powered, GitHub-Actions-built, plugin-rich, PWA-ready, offline-capable.",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "cap sync",
+    "sync:android": "cap sync android",
+    "sync:ios": "cap sync ios",
+    "copy": "cap copy",
+    "copy:android": "cap copy android",
+    "copy:ios": "cap copy ios",
+    "open:android": "cap open android",
+    "open:ios": "cap open ios",
+    "build:web": "echo 'No web build step configured. Place your built site in www/ or set server.url.'",
+    "build:apk": "cap sync android && cd android && ./gradlew assembleDebug --stacktrace",
+    "build:release": "cap sync android && cd android && ./gradlew assembleRelease --stacktrace",
+    "build:bundle": "cap sync android && cd android && ./gradlew bundleRelease --stacktrace",
+    "build:ios": "cap sync ios && cd ios/App && xcodebuild -workspace App.xcworkspace -scheme App -sdk iphonesimulator -configuration Debug CODE_SIGNING_ALLOWED=NO build",
+    "assets": "capacitor-assets generate",
+    "assets:android": "capacitor-assets generate --android",
+    "assets:ios": "capacitor-assets generate --ios",
+    "lint": "markdownlint '**/*.md' --ignore node_modules && prettier --check 'www/**/*.{html,css,js,json}' 'capacitor.config.json' '*.json'",
+    "lint:fix": "prettier --write 'www/**/*.{html,css,js,json}' 'capacitor.config.json' '*.json'",
+    "format": "prettier --write .",
+    "test": "node scripts/validate-config.mjs",
+    "version": "node scripts/version-bump.mjs",
+    "prepare:android": "npm run sync:android && npm run open:android",
+    "prepare:ios": "npm run sync:ios && npm run open:ios",
+    "clean": "rm -rf android/app/build android/build android/.gradle ios/App/build ios/App/Pods && cap sync",
+    "lint:js": "eslint www/ scripts/"
+  },
+  "keywords": [
+    "capacitor",
+    "android",
+    "apk",
+    "aab",
+    "ios",
+    "webview",
+    "pwa",
+    "mobile",
+    "cross-platform",
+    "github-actions",
+    "play-store",
+    "app-store",
+    "offline"
+  ],
+  "author": "web2apk contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/FED-OS/Build-Mobile-Apps-Android-iOS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FED-OS/Build-Mobile-Apps-Android-iOS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FED-OS/Build-Mobile-Apps-Android-iOS/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/FED-OS"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/browser": "^8.0.0",
+    "@capacitor/camera": "^8.0.0",
+    "@capacitor/clipboard": "^8.0.0",
+    "@capacitor/core": "^8.5.0",
+    "@capacitor/device": "^8.0.0",
+    "@capacitor/file-system": "^8.0.0",
+    "@capacitor/geolocation": "^8.0.0",
+    "@capacitor/haptics": "^8.0.0",
+    "@capacitor/keyboard": "^8.0.0",
+    "@capacitor/local-notifications": "^8.0.0",
+    "@capacitor/network": "^8.0.0",
+    "@capacitor/preferences": "^8.0.0",
+    "@capacitor/push-notifications": "^8.0.0",
+    "@capacitor/share": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@capacitor/status-bar": "^8.0.0",
+    "@capacitor/toast": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/ios": "^8.5.0",
+    "markdownlint-cli": "^0.41.0",
+    "prettier": "^3.3.3",
+    "eslint": "^9.10.0"
+  }
+}
