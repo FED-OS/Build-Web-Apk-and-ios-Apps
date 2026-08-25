@@ -1,0 +1,31 @@
+# Build outputs
+android/app/build/
+android/build/
+android/.gradle/
+ios/App/build/
+ios/App/Pods/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Generated native assets (regenerated from resources/)
+android/app/src/main/res/mipmap-*/
+android/app/src/main/res/drawable-port-*/
+android/app/src/main/res/drawable-land-*/
+ios/App/App/Assets.xcassets/AppIcon.appiconset/
+ios/App/App/Assets.xcassets/Splash.imageset/
+
+# Lockfiles (keep formatted by package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+Podfile.lock
+
+# Secrets
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
+.env
